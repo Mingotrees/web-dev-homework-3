@@ -180,11 +180,26 @@ img {
 
 .usability-sub-card{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 0.15fr 1fr 1fr 0.10fr;
+  grid-template-rows: 1fr 1fr 0.5fr 0.5fr;
   padding: 0;
 }
 
 .usab-sub-img-container{
   grid-column: 1/4 span;
+  grid-row: 1/2 span;
+}
+
+.sub-content-no{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.sub-content{
+  padding-left: 1rem;
+  display: flex;
+  align-items: center ;
+  grid-column: 2/3 span;
 }
