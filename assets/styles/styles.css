@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f3f3f3;
   line-height: 1.6;
+  scroll-behavior: smooth;
+  
 }
 
 a {
@@ -41,7 +43,7 @@ img {
 
 .header-flex {
   display: flex;
-  background-color: #93b874;
+  
   align-items: center;
   height: 90px;
   justify-content: space-between;
@@ -49,6 +51,9 @@ img {
 
 .header {
   background-color: #93b874;
+  position: sticky;
+  top: 0;
+  z-index: 1000 ;
 }
 
 .header img {
@@ -58,6 +63,7 @@ img {
 .nav img {
   width: 30px;
 }
+
 .logo {
   margin-top: 8px;
   margin-left: -5.2rem;
@@ -65,7 +71,7 @@ img {
 
 .nav {
   height: 90px;
-  width: 90px;
+  width: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,6 +81,10 @@ img {
   border-left: 2px solid rgba(245, 245, 245, 0.1);
   border-right: 2px solid rgba(245, 245, 245, 0.1);
   transition: transform 0.3s ease-in-out;
+}
+
+.navlinks {
+  display: flex;
 }
 
 .navlinks a:hover {
@@ -146,8 +156,13 @@ img {
 
 .usab-img-container img {
   width: 100%;
-  height: auto;
+  height: 540px;
   object-fit: contain;
+}
+
+.usab-sub-img-container img {
+  width: 100%;
+  height: 540px;
 }
 
 .content-no {
@@ -165,15 +180,15 @@ img {
   grid-column: 2/2 span;
 }
 
-span{
+span {
   font-weight: bold;
   color: black;
 }
-.content p{
+.content p {
   color: #545454;
 }
 
-.content-continue ul li{
+.content-continue ul li {
   color: #545454;
 }
 
@@ -196,49 +211,47 @@ span{
   border-radius: 5px 5px 5px 5px;
 }
 
-.usability-sub-card{
+.usability-sub-card {
   display: grid;
-  grid-template-columns: 0.15fr 1fr 1fr 0.10fr;
+  grid-template-columns: 0.15fr 1fr 1fr 0.1fr;
   grid-template-rows: 1fr 1fr 0.3fr 0.4fr;
   padding: 0;
 }
 
-
-
-.usab-sub-img-container{
+.usab-sub-img-container {
   grid-column: 1/4 span;
   grid-row: 1/2 span;
 }
 
-.sub-content-no{
+.sub-content-no {
   display: flex;
   justify-content: end;
   align-items: center;
   font-size: 1.8rem;
 }
 
-.sub-content{
+.sub-content {
   padding-left: 1rem;
   display: flex;
-  align-items: center ;
+  align-items: center;
   grid-column: 2/2 span;
 }
 
-.sub-content span{
+.sub-content span {
   font-weight: bold;
 }
-.sub-content-cont{
+.sub-content-cont {
   grid-column: 2/2 span;
 }
-.sub-content-cont ul{
+.sub-content-cont ul {
   list-style-type: disc;
   padding-left: 3rem;
 }
 
-.sub-content-cont ul li{
+.sub-content-cont ul li {
   color: #545454;
 }
 
-.sub-content p{
-  color:#545454
+.sub-content p {
+  color: #545454;
 }
