@@ -177,3 +177,14 @@ img {
   padding-left: 3rem;
 
 }
+
+.usability-sub-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 0;
+}
+
+.usab-sub-img-container{
+  grid-column: 1/4 span;
+}
