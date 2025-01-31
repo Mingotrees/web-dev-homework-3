@@ -100,3 +100,80 @@ img {
   margin-top: 2rem;
   font-size: 20px;
 }
+
+.usability-card{
+  display:grid;
+  grid-template-rows: 0.4fr 3.8fr 0.5fr 0.5fr;
+  grid-template-columns: 0.15fr 1fr 1fr 0.10fr;
+  padding: 0;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.usab-title{
+  border-radius: 5px 0 0 0 ;
+  padding: 5px;
+  display: flex;
+  background-color: #93b874;
+  color: #f3f3f3;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.usab-title > p:nth-child(2){
+  font-size: 1.2rem;
+}
+
+.usab-title p {
+  letter-spacing: -0.05em; /* Adjust the value as needed */
+  margin: -3px 0;
+}
+
+.usab-title-text{
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  grid-column: 2/6;
+  padding-left: 1rem;
+}
+
+.usab-img-container{
+  grid-column: 1/5 span;
+}
+
+.usab-img-container img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.content-no{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.content{
+  padding-left: 1rem;
+  display: flex;
+  align-items: center ;
+  grid-column: 2/2 span;
+}
+
+.content span{
+  font-weight: bold;
+}
+
+.content-continue{
+  grid-column: 2/2 span;
+
+}
+
+.content-continue ul{
+  list-style-type: disc;
+  padding-left: 3rem;
+
+}
