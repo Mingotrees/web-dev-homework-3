@@ -165,8 +165,16 @@ img {
   grid-column: 2/2 span;
 }
 
-.content span {
+span{
   font-weight: bold;
+  color: black;
+}
+.content p{
+  color: #545454;
+}
+
+.content-continue ul li{
+  color: #545454;
 }
 
 .content-continue {
@@ -189,7 +197,47 @@ img {
   row-gap: 5px;
 }
 
+.usability-sub-card{
+  display: grid;
+  grid-template-columns: 0.15fr 1fr 1fr 0.10fr;
+  grid-template-rows: 1fr 1fr 0.3fr 0.4fr;
+  padding: 0;
+}
 
+.usab-sub-img-container{
+  grid-column: 1/4 span;
+  grid-row: 1/2 span;
+}
 
+.sub-content-no{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 1.8rem;
+}
 
+.sub-content{
+  padding-left: 1rem;
+  display: flex;
+  align-items: center ;
+  grid-column: 2/2 span;
+}
 
+.sub-content span{
+  font-weight: bold;
+}
+.sub-content-cont{
+  grid-column: 2/2 span;
+}
+.sub-content-cont ul{
+  list-style-type: disc;
+  padding-left: 3rem;
+}
+
+.sub-content-cont ul li{
+  color: #545454;
+}
+
+.sub-content p{
+  color:#545454
+}
