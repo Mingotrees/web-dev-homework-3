@@ -29,6 +29,14 @@ img {
   padding: auto 2rem;
 }
 
+.card-container {
+  padding: 30px;
+  margin-top: 2rem;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+
 /* header */
 
 .header-flex {
@@ -79,13 +87,6 @@ img {
 
 /* Introduction */
 
-.intro-card {
-  padding: 30px;
-  margin-top: 2rem;
-  background-color: white;
-  width: 100%;
-  border-radius: 5px;
-}
 
 .intro-card .title p {
   color: #777777;
