@@ -78,8 +78,8 @@ img {
   justify-content: center;
   gap: 5px;
   color: #475347;
-  border-left: 2px solid rgba(245, 245, 245, 0.1);
-  border-right: 2px solid rgba(245, 245, 245, 0.1);
+  border-left: 1px solid #89ac6c;
+  border-right: 1px solid #89ac6c;
   transition: transform 0.3s ease-in-out;
 }
 
