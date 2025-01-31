@@ -191,10 +191,9 @@ span{
 .accessibility-card {
   display: grid;
   grid-template-rows: 0.4fr 3.8fr 0.5fr 0.5fr;
-  grid-template-columns: 0.071fr 1fr ;
+  grid-template-columns: 0.15fr 1fr 1fr 0.1fr;
   padding: 0;
   border-radius: 5px 5px 5px 5px;
-  row-gap: 5px;
 }
 
 .usability-sub-card{
@@ -203,6 +202,8 @@ span{
   grid-template-rows: 1fr 1fr 0.3fr 0.4fr;
   padding: 0;
 }
+
+
 
 .usab-sub-img-container{
   grid-column: 1/4 span;
